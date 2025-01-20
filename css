@@ -1,0 +1,112 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    color: #2e5b31;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Header Section */
+header {
+    background-color: #8bcca7;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Georgia', serif;
+    font-size: 3rem;
+    letter-spacing: 2px;
+}
+
+header p {
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+/* About Section */
+#about {
+    padding: 40px 0;
+    background-color: #ffffff;
+}
+
+#about .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Artwork, Character Design, and Concept Art Sections */
+section {
+    padding: 40px 0;
+}
+
+.gallery {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.art-piece {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+    width: 30%;
+}
+
+.art-piece img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.art-piece p {
+    margin-top: 10px;
+    font-size: 1.1rem;
+}
+
+/* Footer Section */
+footer {
+    background-color: #8bcca7;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1rem;
+    font-style: italic;
+}
